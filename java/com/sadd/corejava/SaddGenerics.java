@@ -22,7 +22,6 @@ public class SaddGenerics {
 		String s1= (String) al.get(0);
 		String s2= (String) al.get(1);// this will throw runtime exception
 		
-		
 		List<String> al1= new ArrayList<String>(); 
 		al1.add("sadd"); 
 		al1.add(1); // already showing problem, so early detected
