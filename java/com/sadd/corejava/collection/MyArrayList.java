@@ -1,4 +1,6 @@
-package heapdump;
+package com.sadd.corejava;
+
+
 import java.util.Arrays;
 
 public class MyArrayList {
