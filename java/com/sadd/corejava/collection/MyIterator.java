@@ -9,14 +9,13 @@ public class MyIterator {
     
     public static void main(String[] args){
     
-    List<String> testDoubleList=createStringList();
+    List<String> testStringList=createStringList();
     
  // or Iterator<Double> it = testList.iterator(); while (it.hasNext()){ .....   }
-     for (Iterator<String> it = testDoubleList.iterator(); it.hasNext();){
+     for (Iterator<String> it = testStringList.iterator(); it.hasNext();){
          
          System.out.println(it.next());
      }
-    
     
     }
     
