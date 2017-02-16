@@ -1,4 +1,4 @@
-package com.sadd;
+package com.sadd.corejava.collection;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,10 @@
-package com.sadd.corejava.collection.sort;
+package com.sadd.corejava.collection.sort.custom;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MyArrayListSorter {
+public class MyArrayListSorterWithCustom {
     
     public static void main(String[] args){
     

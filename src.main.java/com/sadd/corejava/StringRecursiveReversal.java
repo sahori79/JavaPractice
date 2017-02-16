@@ -1,4 +1,4 @@
-package com.sadd;
+package com.sadd.corejava;
 public class StringRecursiveReversal {
  
     String reverse = "";

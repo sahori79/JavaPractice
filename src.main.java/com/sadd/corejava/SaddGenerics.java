@@ -13,7 +13,7 @@ public class SaddGenerics {
 		
 		String[] s = new String[5];
 		s[0]="sadd";
-		s[1]=1;  // Array is type safe
+		//s[1]=1;  // Array is type safe
 		
 		List al= new ArrayList(); // not a type safe ArrayList, will have problem at runtime
 		al.add("sadd"); 
@@ -24,7 +24,8 @@ public class SaddGenerics {
 		
 		List<String> al1= new ArrayList<String>(); 
 		al1.add("sadd"); 
-		al1.add(1); // already showing problem, so early detected
+		//al1.add(1); // already showing problem, so early detected
+
 	}
 
 }
